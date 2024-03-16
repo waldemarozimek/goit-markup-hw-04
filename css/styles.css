@@ -336,3 +336,22 @@ section {
   color: var(--cloud);
   margin-bottom: 16px;
 }
+
+.footer-media-container {
+}
+.footer-socjal-media-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.icon-footer {
+  display: flex;
+  gap: 16px;
+}
+.socjal-media-backlight:hover,
+.socjal-media-backlight:focus {
+  background-color: var(--green);
+}
