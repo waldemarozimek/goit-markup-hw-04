@@ -40,6 +40,11 @@ p {
   padding-right: 15px;
   /* padding: 0 15px; */
 }
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -336,8 +341,10 @@ section {
   color: var(--cloud);
   margin-bottom: 16px;
 }
-
-.footer-media-container {
+.fotter-section-logo {
+  margin-right: 120px;
+}
+.footer-section-socjal-media {
 }
 .footer-socjal-media-title {
   font-family: var(--font-family);
@@ -346,6 +353,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
+  margin-bottom: 16px;
 }
 .icon-footer {
   display: flex;
